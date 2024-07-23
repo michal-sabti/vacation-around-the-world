@@ -1,0 +1,49 @@
+.one-country {
+  list-style-type: none;
+}
+
+#country-div {
+  h2 {
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    #link-country {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 5%;
+
+      li {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 10%;
+        margin-left: 2%;
+
+        h2 {
+          position: absolute;
+          top: 0;
+          left: 30%;
+          font-size: 40px;
+          padding: 10%;
+          font-weight: 550;
+          color: rgb(236, 236, 236);
+          text-shadow: 2px 2px 4px rgb(1, 1, 1, 2);
+        }
+
+        img {
+          width: 400px;
+          border-radius: 20px;
+          height: 250px;
+        }
+      }
+    }
+  }
+}

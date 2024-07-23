@@ -1,0 +1,70 @@
+.MuiStack-root {
+  margin-right: 60%;
+  margin-bottom: 5%;
+}
+.css-1ghilo0-MuiStack-root {
+  margin-left: 5%;
+  direction: ltr;
+
+  .MuiPickersToolbar-root {
+    display: none;
+  }
+
+  .MuiPickersCalendarHeader-root {
+    display: block !important;
+  }
+  .MuiPickersArrowSwitcher-root {
+    margin-left: 70%;
+    margin-top: -11%;
+  }
+}
+.css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-actionBar {
+  display: none;
+}
+.invitions {
+  height: 350px;
+  width: 60%;
+  margin-top: -32%;
+  display: flex;
+  margin-right: 5%;
+}
+.haveInvition {
+  height: auto;
+}
+.MuiBox-root {
+  width: auto;
+  margin-left: 5%;
+}
+#p-user {
+  margin-top: -11%;
+  margin-right: 51px;
+}
+
+#div-date {
+  margin-top: 5%;
+  width: 60%;
+  height: 60%;
+  margin-right: 20%;
+}
+.box-invite {
+  background-color: #f7f7f8;
+  font-family: "emoji";
+  margin-top: 3%;
+  margin-right: 5%;
+  .div-invite-cards {
+    display: flex;
+    flex-wrap: wrap;
+    .card-invite {
+      width: 30%;
+      height: 30%;
+      margin: 1%;
+    }
+  }
+}
+// .tiketInvite{
+//   margin-right: 80%;
+//     width: 215px;
+//     padding: 5px;
+//     border: 1.5px dotted;
+//     margin-top: -35px;
+// }

@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+#header {
+    // background-image: url("../../public/pic/background.jpg");
+    background-image: url("../../public/bg.jpg");
+    background-size: 100%, 10%;
+    padding: 13%;
+}
+
+#nav-bar {
+    margin-top: -63px;
+    width: 100%;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: pink;
+        direction: rtl;
+
+        li {
+            width: 14.2%;
+            height: 33.3%;
+            font-size: 22px;
+        }
+
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        li a:hover:not(.active) {
+            background-color: white;
+        }
+
+        /* CSS */
+        li a.selected {
+            background-color: white;
+        }
+    }
+}
+
+#footer {
+    background-color: rgb(160, 189, 233);
+    padding: 40px;
+    margin-top: 5%;
+}

@@ -1,0 +1,40 @@
+.oneUser {
+    width: 20%;
+    height: 10%;
+    padding: 10px;
+}
+
+#div-users {
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25%;
+
+    li {
+        padding: 2%;
+        list-style-type: none;
+    }
+}
+
+.allUsers {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    h4 {
+        margin-bottom: 3%;
+        margin-left: 70%;
+    }
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+    font-size: 1rem !important;
+}
+
+#massage {
+    direction: rtl;
+}
+
+.css-tzssek-MuiSvgIcon-root {
+    margin-top: 10% !important;
+}

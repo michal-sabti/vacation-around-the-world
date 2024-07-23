@@ -1,0 +1,36 @@
+// #div-start{
+//     border:1px solid black;
+//     background-color: rgb(255, 127, 148);
+//     width: 35%;
+//     height: 44%;
+//     margin-left: 66%;
+//     padding: 20px;
+//     margin-top: -15%;
+//     // display: none;
+// }
+
+.form-login{
+    direction: ltr;
+    width: 25ch;
+    margin-bottom: 50%;
+}
+.submit{
+    direction: ltr;
+}
+.unLogin{
+    display: block;
+}
+.login{
+    display: none;
+}
+
+div:where(.swal2-container) h2:where(.swal2-title){
+    font-size: 20px !important;
+}
+
+
+//התחברות
+.MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root{
+    padding-top: 5% !important;
+}
+

@@ -1,0 +1,132 @@
+// stepper
+.stepper {
+    #stepper-title {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    direction: rtl;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.css-m5vj9m-MuiStepper-root {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+
+//pay - תשלום
+.pay-div {
+    margin-left: 15%;
+}
+
+//num-people - מספר אנשים
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 45px !important;
+}
+
+#invitation-card {
+    margin-right: 2%;
+    padding: 10px;
+    width: 95%;
+    height: 50%;
+
+    .numPeople {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+
+        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+            height: 0.4375em !important;
+            max-width: 18px;
+            text-align: center;
+            border: 1px solid white;
+        }
+
+        h4 {
+            margin-top: 7px;
+        }
+    }
+
+    .big-ul-rooms {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 4px;
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        overflow: hidden;
+        padding: 5%;
+        list-style: none;
+
+        .li1-hotel {
+            text-align: right;
+            margin-left: 7%;
+            font-size: 20px;
+            text-decoration: dotted;
+
+            h6 {
+                color: gray;
+            }
+        }
+
+        .li2-hotel {
+            list-style: none;
+            text-align: right;
+
+            .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+                height: 0.4375em !important;
+                max-width: 18px;
+                text-align: center;
+                border: 1px solid white;
+                box-sizing: none !important;
+            }
+        
+
+            .show2-div {
+                border-radius: 4px;
+                box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+                overflow: hidden;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 10%;
+                margin-right: 19%;
+                margin-top: 10%;
+
+                .plus-minus{
+                    margin-right: 10%;
+                }
+            }
+        }
+
+        .num-people-inside-room {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: 5%;
+            width: 100%;
+
+            p {
+                margin-right: 5%;
+            }
+        }
+    }
+
+
+    #order {
+        margin-right: 60%;
+    }
+}
+
+#div-loading {
+    color: white;
+    padding: 6%;
+    margin-right: 25%;
+    margin: 5%;
+    margin-right: 25%;
+    font-size: 30px;
+    background-color: pink;
+    width: 50%;
+}
+

@@ -1,0 +1,64 @@
+.notConnected {
+    background-image: url("../../../public/pic/ארהב.jpg");
+    background-size: 100%, 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    direction: rtl;
+    width: 70%;
+    height: 250px;
+    margin-right: 15%;
+
+    h2 {
+        left: 10%;
+        font-size: 40px;
+        padding: 5%;
+        font-weight: 550;
+        color: rgb(236, 236, 236);
+        text-shadow: 2px 2px 4px rgb(1, 1, 1, 2);
+    }
+}
+
+// div:where(.swal2-container).swal2-center>.swal2-popup {
+//     // background-image: url("../../../public/pic-city/ונציה.jpg");
+//     background-color: pink;
+
+//     [class^=swal2] {
+//         color: rgb(236, 236, 236);
+//         text-shadow: 2px 2px 4px rgb(1, 1, 1, 2);
+//     }
+// }
+
+
+.user-detailes {
+    list-style-type: none;
+    margin-left: 3%;
+
+    Button{
+        border: none;
+        background-color: white;
+    }
+    li {
+        font-size: large;
+    }
+}
+
+.like {
+    font-weight: bold;
+    margin-left: 74%;
+    padding: 15px;
+    font-size: 30px;
+    direction: ltr;
+    margin-top: 6%;
+
+    span {
+        color: pink;
+        font-weight: 1000;
+    }
+}
+
+#user-avatar {
+    width: 8% !important;
+    height: 115px !important;
+    margin-right: 45% !important;
+    font-size: xxx-large !important;
+    margin-top: 5% !important;
+}

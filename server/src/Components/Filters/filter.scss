@@ -1,0 +1,44 @@
+.filter {
+    margin-right: 20%;
+    background-Color: #dde8f1;
+    border: 1px solid #536db7;
+    direction: rtl;
+    width: 56%;
+    height: 50%;
+    margin-top: 5%;
+
+    .css-ahj2mt-MuiTypography-root {
+        font-family: "emoji" !important;
+    }
+
+    h2 {
+        padding: 5%;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+
+        li {
+            padding: 10px;
+            width: 22%;
+        }
+    }
+}
+
+.city-names {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+    margin-right: 10%;
+    font-size: 25px;
+
+    img {
+        width: 30%;
+        border-radius: 20px;
+        height: 27vh;
+    }
+}

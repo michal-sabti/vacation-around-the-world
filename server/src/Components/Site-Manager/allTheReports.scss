@@ -1,0 +1,31 @@
+
+.big-div-one-report {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "emoji";
+
+    h2 {
+        margin-left: 40%;
+    }
+
+    .one-report {
+        border-radius: 4px;
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        overflow: hidden;
+        margin: 35px;
+        padding: 2%;
+        width: 43%;
+        text-align: right;
+        background-color: white;
+
+        .button {
+            border-radius: 23px;
+            border: none;
+            color: white;
+            background-color: pink;
+            font-size: large;
+            padding: 10px;
+            margin: 5px;
+        }
+    }
+}

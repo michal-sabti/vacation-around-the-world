@@ -1,0 +1,121 @@
+body {
+    direction: rtl;
+}
+
+
+#div-paper-filter {
+    padding: 6%;
+    background-image: url("../../public/pic-city/city2.jpg");
+    background-size: 100%, 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 15px;
+
+    #div2-in-serch {
+        background-color: white;
+        padding: 2%;
+        height: 10%;
+        margin-right: -2%;
+        margin-bottom: -19%;
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        border-radius: 30px;
+
+        li {
+            list-style-type: none;
+            padding: 2%;
+            margin-left: 4px;
+            margin-right: 5%;
+
+            .css-i4bv87-MuiSvgIcon-root {
+                height: 1.5em !important;
+                width: 2.5em !important;
+            }
+        }
+    }
+
+    #search {
+        margin-right: 20%;
+        margin-left: 20%;
+        direction: rtl;
+        display: flex;
+        align-items: center;
+        // background-color: rgb(186, 195, 214);
+    }
+
+    #button-search {
+        background-color: rgb(186, 195, 214);
+        padding: 2%;
+        border: none;
+        width: 24%;
+        margin-left: -2%;
+        font-size: 135%;
+        margin-top: -1.5%;
+        height: 49px;
+        margin-bottom: -1.5%;
+    }
+}
+
+.class-h2 {
+    direction: ltr;
+    // font-size: 40px;
+    // color: black;
+    margin-top: 5%;
+    font-weight: 600;
+    color: black;
+    font-size: 200%;
+
+    span {
+        color: pink;
+        font-weight: 1000;
+    }
+}
+
+.fqEAqb {
+    width: 93% !important;
+}
+
+.fKsyjH {
+    width: 95% !important;
+}
+
+#box-country {
+    width: 50%;
+    margin-right: 25%;
+    margin-top: -3%;
+    border: 1px solid pink;
+}
+
+.css-imwso6-MuiBottomNavigationAction-label {
+    font-size: medium !important;
+}
+
+#footer-loaging {
+    width: 25%;
+    margin-left: 77%;
+    margin-top: -17%;
+}
+
+#footer {
+    direction: ltr;
+
+    .div-footer {
+        direction: rtl;
+        margin-top: 2%;
+
+        .but {
+            padding: 2%;
+            border: none;
+            background-color: rgb(160, 189, 233);
+            color: black;
+        }
+    }
+
+    h5 {
+        margin-top: 5%;
+    }
+
+}
